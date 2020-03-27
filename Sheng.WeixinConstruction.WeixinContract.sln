@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sheng.Weixin", "Sheng.Weixin\Sheng.Weixin.csproj", "{19972C3F-7A6F-46C0-A501-5A89001148E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{F791AB8B-BEBB-42AE-B5D3-A85FBAEEA935}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linkup.Common", "Common\Linkup.Common\Linkup.Common.csproj", "{2753ED31-D787-41F3-893C-58DF187DA1D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linkup.DataRelationalMapping", "Common\Linkup.DataRelationalMapping\Linkup.DataRelationalMapping.csproj", "{7BB22DE3-7422-4CE4-BD77-B51565343DD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WXWebGZHTest", "WXWebGZHTest\WXWebGZHTest.csproj", "{E5900687-9823-48EB-AD0C-E6513D919D67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeiXinLib", "WeiXinLib\WeiXinLib.csproj", "{F7E327AF-7C2D-48C6-B572-36E6F3C49362}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19972C3F-7A6F-46C0-A501-5A89001148E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19972C3F-7A6F-46C0-A501-5A89001148E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19972C3F-7A6F-46C0-A501-5A89001148E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19972C3F-7A6F-46C0-A501-5A89001148E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2753ED31-D787-41F3-893C-58DF187DA1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2753ED31-D787-41F3-893C-58DF187DA1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2753ED31-D787-41F3-893C-58DF187DA1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2753ED31-D787-41F3-893C-58DF187DA1D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BB22DE3-7422-4CE4-BD77-B51565343DD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BB22DE3-7422-4CE4-BD77-B51565343DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BB22DE3-7422-4CE4-BD77-B51565343DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BB22DE3-7422-4CE4-BD77-B51565343DD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5900687-9823-48EB-AD0C-E6513D919D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5900687-9823-48EB-AD0C-E6513D919D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5900687-9823-48EB-AD0C-E6513D919D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5900687-9823-48EB-AD0C-E6513D919D67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7E327AF-7C2D-48C6-B572-36E6F3C49362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E327AF-7C2D-48C6-B572-36E6F3C49362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E327AF-7C2D-48C6-B572-36E6F3C49362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E327AF-7C2D-48C6-B572-36E6F3C49362}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2753ED31-D787-41F3-893C-58DF187DA1D8} = {F791AB8B-BEBB-42AE-B5D3-A85FBAEEA935}
+		{7BB22DE3-7422-4CE4-BD77-B51565343DD2} = {F791AB8B-BEBB-42AE-B5D3-A85FBAEEA935}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62624767-7C89-4BDE-A0DB-D9B4D078AAD5}
+	EndGlobalSection
+EndGlobal

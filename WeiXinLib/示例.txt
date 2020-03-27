@@ -1,0 +1,26 @@
+﻿
+//====================== 创建菜单对象  =============================================================
+//菜单对象
+var menu = new MenuModel() { button = new List<ButtonModel>() };
+
+//3个一级按钮(根节点)
+ButtonModel bm1 = new ViewButtonModel() { name = "查看车位", url = "http://m.joyring.net/easypark/index.html" };
+menu.button.Add(bm1);
+
+ButtonModel bm2 = new ViewButtonModel() { name = "下载APP", url = "http://m.joyring.net/WeiXin/LoadDownAPP_1.htm" };
+menu.button.Add(bm2);
+
+ButtonModel bm3 = new ButtonModel() { name = "更多功能",sub_button=new List<ButtonModel>()};
+menu.button.Add(bm3);
+//3个根节点(根节点)
+
+//添加子菜单按钮
+ButtonModel bm4 = new ClickButtonModel() { name = "功能4",  key = "Button4" };
+ButtonModel bm5 = new ClickButtonModel() { name = "功能5",  key = "Button5" };
+ButtonModel bm6 = new ClickButtonModel() { name = "功能6",  key = "Button6" };
+
+bm3.sub_button.Add(bm4);
+bm3.sub_button.Add(bm5);
+bm3.sub_button.Add(bm6);
+
+//====================== 创建菜单对象  =============================================================
