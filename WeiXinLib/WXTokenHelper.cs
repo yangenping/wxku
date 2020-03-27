@@ -146,10 +146,11 @@ namespace WeiXinLib
    
             string token =  p.Root.Element("token").Value;
 
-            if (!TokenExpired(token))
+            if (TokenExpired(token))
             {
                 token = GetToken(ConfigManager.GetConfigFirst().AppId, ConfigManager.GetConfigFirst().AppSecret);
                 p.Root.Element("token").Value = token;
+                ConfigManager.GetConfigFirst().AccessToken = token;
                 p.Save(path);
             }
             else

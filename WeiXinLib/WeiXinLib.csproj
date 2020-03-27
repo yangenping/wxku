@@ -67,6 +67,7 @@
     <Compile Include="Helper\Common\WxPublicException.cs" />
     <Compile Include="HttpHelper.cs" />
     <Compile Include="LogFactory.cs" />
+    <Compile Include="MenuMgr.cs" />
     <Compile Include="Model\QR\QrCodeModel.cs" />
     <Compile Include="Timers\AccessTokenTimer.cs" />
     <Compile Include="MessageCrypt.cs" />
@@ -100,6 +101,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Linkup.Common\Linkup.Common.csproj">
+      <Project>{2753ed31-d787-41f3-893c-58df187da1d8}</Project>
+      <Name>Linkup.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

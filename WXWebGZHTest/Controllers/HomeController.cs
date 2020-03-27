@@ -15,7 +15,7 @@ namespace WXWebGZHTest.Controllers
         {
 
 
-
+          string s=  MenuMgr.CreateBtn();
 
             LogFactory.GetLog(typeof(HomeController)).Info("接收");
             if (HttpContext.Request.HttpMethod == "GET")

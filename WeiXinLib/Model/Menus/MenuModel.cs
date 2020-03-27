@@ -33,6 +33,7 @@ namespace WeiXinLib.Model.Menus
         public ButtonModel(string name)
         {
             this.name = name;
+            this.sub_button = new List<ButtonModel>();
         }
 
         /// <summary>
